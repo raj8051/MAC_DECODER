@@ -7,7 +7,7 @@ int main()
 {
 node n;
 bool UL,DL=false;
-std::ifstream inputFile("/home/ee212383/VS_CODES/MAC_Decoder/Text_file.txt"); // Replace "data.txt" with the path to your text file
+std::ifstream inputFile("Your text file path "); // Replace "data.txt" with the path to your text file
 
 if (!inputFile) {
 std::cout << "Failed to open the file." << std::endl;

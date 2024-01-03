@@ -7,7 +7,7 @@ int main()
 {
 node n;
 bool UL,DL=false;
-std::ifstream inputFile("Your text file path "); // Replace "data.txt" with the path to your text file
+std::ifstream inputFile("Your text file path "); // Replace "data.txt" with the path of your text file
 
 if (!inputFile) {
 std::cout << "Failed to open the file." << std::endl;
